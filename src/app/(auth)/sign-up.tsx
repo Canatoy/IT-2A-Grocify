@@ -66,7 +66,7 @@ export default function Page() {
   ) {
     return (
       <View style={styles.container}>
-        <Text type="title" style={styles.title}>
+        <Text style={styles.title}>
           Verify your account
         </Text>
         <TextInput
@@ -103,7 +103,7 @@ export default function Page() {
 
   return (
     <View style={styles.container}>
-      <Text type="title" style={styles.title}>
+      <Text style={styles.title}>
         Sign up
       </Text>
 
@@ -149,7 +149,7 @@ export default function Page() {
       <View style={styles.linkContainer}>
         <Text>Already have an account? </Text>
         <Link href="/sign-in">
-          <Text type="link">Sign in</Text>
+          <Text>Sign in</Text>
         </Link>
       </View>
 

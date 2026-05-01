@@ -88,7 +88,7 @@ export default function Page() {
   if (signIn.status === 'needs_client_trust') {
     return (
       <View style={styles.container}>
-        <Text type="title" style={[styles.title, { fontSize: 24, fontWeight: 'bold' }]}>
+        <Text style={[styles.title, { fontSize: 24, fontWeight: 'bold' }]}>
           Verify your account
         </Text>
         <TextInput
@@ -131,7 +131,7 @@ export default function Page() {
 
   return (
     <View style={styles.container}>
-      <Text type="title" style={styles.title}>
+      <Text style={styles.title}>
         Sign in
       </Text>
 
@@ -177,7 +177,7 @@ export default function Page() {
       <View style={styles.linkContainer}>
         <Text>Don't have an account? </Text>
         <Link href="/sign-up">
-          <Text type="link">Sign up</Text>
+          <Text>Sign up</Text>
         </Link>
       </View>
     </View>
