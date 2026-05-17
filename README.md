@@ -1,7 +1,5 @@
 <h1 align="center">🛒 Full-Stack Grocery List Mobile App  🛒</h1>
 
-![Demo App](/assets/images/screenshot-for-readme.png)
-
 ✨ **Highlights:**
 
 - 📱 Fully Functional Mobile App built with React Native & Expo
