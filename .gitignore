@@ -41,3 +41,8 @@ app-example
 # generated native folders
 /ios
 /android
+<<<<<<< HEAD
+=======
+
+.env.local
+>>>>>>> origin/v2

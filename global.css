@@ -1,3 +1,65 @@
 @tailwind base;
 @tailwind components;
+<<<<<<< HEAD
 @tailwind utilities;
+=======
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 20% 98%;
+    --foreground: 224 71% 14%;
+    --card: 0 0% 100%;
+    --card-foreground: 224 71% 14%;
+    --primary: 224 76% 48%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 30% 94%;
+    --secondary-foreground: 224 55% 28%;
+    --muted: 220 20% 96%;
+    --muted-foreground: 220 16% 46%;
+    --accent: 74 90% 54%;
+    --accent-foreground: 224 71% 14%;
+    --destructive: 0 100% 97%;
+    --destructive-foreground: 0 74% 54%;
+    --border: 220 20% 88%;
+    --input: 220 20% 88%;
+    --ring: 74 90% 54%;
+    --success: 74 80% 45%;
+    --priority-low: 142 73% 90%;
+    --priority-low-foreground: 146 68% 33%;
+    --priority-medium: 45 100% 90%;
+    --priority-medium-foreground: 35 91% 31%;
+    --priority-high: 10 100% 92%;
+    --priority-high-foreground: 6 71% 48%;
+  }
+
+  /* Dark mode — triggered by NativeWind injecting the "dark" class
+     when colorScheme is set to "dark" via useColorScheme().setColorScheme */
+  .dark {
+    --background: 224 45% 9%;
+    --foreground: 210 40% 94%;
+    --card: 224 38% 13%;
+    --card-foreground: 210 40% 94%;
+    --primary: 224 76% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 224 30% 20%;
+    --secondary-foreground: 220 30% 82%;
+    --muted: 224 25% 17%;
+    --muted-foreground: 220 18% 60%;
+    --accent: 74 90% 54%;
+    --accent-foreground: 224 71% 14%;
+    --destructive: 0 40% 18%;
+    --destructive-foreground: 0 86% 78%;
+    --border: 224 20% 24%;
+    --input: 224 20% 24%;
+    --ring: 74 90% 54%;
+    --success: 74 70% 48%;
+    --priority-low: 147 36% 22%;
+    --priority-low-foreground: 137 56% 78%;
+    --priority-medium: 39 39% 23%;
+    --priority-medium-foreground: 45 88% 79%;
+    --priority-high: 8 35% 24%;
+    --priority-high-foreground: 8 86% 82%;
+  }
+}
+>>>>>>> origin/v2

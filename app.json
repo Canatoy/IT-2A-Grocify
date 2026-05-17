@@ -1,5 +1,6 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "IT-2A-Grocify",
     "slug": "IT-2A-Grocify",
     "version": "1.0.0",
@@ -9,6 +10,18 @@
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon"
+=======
+    "name": "grocify",
+    "slug": "grocify",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "grocify",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.devburakork.grocify"
+>>>>>>> origin/v2
     },
     "android": {
       "adaptiveIcon": {
@@ -17,6 +30,7 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
+<<<<<<< HEAD
       "predictiveBackGestureEnabled": false
     },
     "web": {
@@ -24,6 +38,17 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
+=======
+      "predictiveBackGestureEnabled": false,
+      "package": "com.devburakork.grocify"
+    },
+    "web": {
+      "output": "server",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "@clerk/expo",
+>>>>>>> origin/v2
       "expo-router",
       [
         "expo-splash-screen",
@@ -34,6 +59,18 @@
             "imageWidth": 76
           }
         }
+<<<<<<< HEAD
+=======
+      ],
+      "expo-web-browser",
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.io/",
+          "project": "grocify",
+          "organization": "codesistency-gs"
+        }
+>>>>>>> origin/v2
       ]
     ],
     "experiments": {
